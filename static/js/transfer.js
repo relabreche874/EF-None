@@ -1,7 +1,7 @@
 export class Transfer {
     constructor(){
         this.xhr = null
-        this.data_grabbed = null
+//        this.data_grabbed = null
 //        this.dataToSend = null
 //        this.data_grabbed = document.getElementById("data_grabbed")
     }
@@ -23,10 +23,10 @@ export class Transfer {
         // Check response is ready or not
         if (this.xhr.readyState == 4 && this.xhr.status == 200) {
             console.log("User data received!");
-            console.log(this.xhr.response)
-//            let dataDiv = document.getElementById('data_grabbed');
+            console.log(this.xhr.response) //This is what pulls it out
+            let dataDiv = document.getElementById('talk');
             // Set current data text
-//            dataDiv.innerHTML = this.xhr.responseText;
+            dataDiv.innerHTML = this.xhr.responseText;
         }
     }
     sendDataCallback(){
@@ -34,6 +34,8 @@ export class Transfer {
         if (this.xhr.readyState == 4 && this.xhr.status == 201) {
             console.log("Data creation response received!");
             this.getData();
+            let dataDiv = document.getElementById('talk');
+            dataDiv.innerHTML = this.xhr.responseText;
 
 //            let dataDiv = document.getElementById('sent-data-container');
             // Set current data text
