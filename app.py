@@ -7,7 +7,7 @@ app = Flask(__name__)
 # transference = "data"
 brain = df()
 
-@app.route('/')
+@app.route('/Users/robert/Desktop/EF-None/app.py')
 def baseline():
     return render_template("index.html")# stuff=transference)
 
