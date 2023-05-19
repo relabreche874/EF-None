@@ -1,5 +1,5 @@
 # EF-None
-EF-None is an application that takes a user's location and tells you the likeness of a tornado, letting you know if the area is safe for that specific time of year. The program uses Flask, Python, HTML, Javascript, and CSS.
+EF-None is an application that takes a user's location and tells you the percentage change of a tornado in an area based off of the latitude and longitude as well as the month range. The program uses Flask, Python, HTML, Javascript, and CSS.
 
 
 
