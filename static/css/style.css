@@ -1,45 +1,24 @@
 body {
   margin:0;
-  background-color: lightblue;
+  background-color: #14375a;
 
 }
 #topBlackBar {
-  border-top: 20px solid #0066cc;
+  border-top: 35px solid #14375a;
 
 }
 h1 {
-  color: white;
+  color: black;
   margin:0;
-  text-align: center;
-  background-color: #0066cc;
-  border-bottom: 20px solid #0066cc;
-}
-
-#submit {
-  display: block;
-  width: 100%;
-  border: none;
-  background-color: #0066cc;
-  color: white;
-  padding: 19px 28px;
-  font-size: 40px;
-  cursor: pointer;
-  text-align: center;
+  background-color: #14375a;
+  border-bottom: 25px solid #14375a;
 
 }
 
-#submit:hover {
-  display: block;
-  width: 100%;
-  border: none;
-  background-color: #04446D;
-  color: white;
-  padding: 19px 28px;
-  font-size: 40px;
-  cursor: pointer;
-  text-align: center;
 
-}
+
+
+
 
 #talk {
 text-align: center;

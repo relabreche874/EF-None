@@ -33,6 +33,7 @@ class df:
                 current_attempt += 1
                 print(f'Timed out after {current_attempt} call(s), retrying')
         raise Exception('FAILED AFTER 3 CALLS')
+    
     def get_oddsV2(self, to_month, from_month, lat, lon):
         filtered_df = self.df[(self.df['slat']>=lat - 1) & (self.df['slat']<= lat + 1) & (self.df['slon']>=lon - 1) & (self.df['slon']<= lon + 1)]
         filtered_df2 = filtered_df[(filtered_df['mo'] <= to_month) & (filtered_df['mo'] >= from_month)]

@@ -1,0 +1,33 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav
+{
+    background: #ffffff;
+    height: 70px;
+    width: 100%;
+}
+label.logo
+{
+    position: relative;
+    top: 2%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: #14375a;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 6px;
+    font-weight: 400;
+
+}

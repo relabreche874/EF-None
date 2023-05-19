@@ -7,19 +7,24 @@
     <script src="{{ url_for('static', filename='js/index.js') }}"
             type="module"
     ></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/banner.css') }}">
+    <nav>
+        <label class="logo">EF-None</label>
+    </nav>
     <div id="topBlackBar"/>
-    <h1>EF-None</h1>
     <div class="map">
         {% include "map.html" %}
     </div>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/slider.css') }}">
     <div class="controls">
         {% include "controls.html" %}
     </div>
     <div class="feedback">
         {% include "datapage.html" %}
     </div>
-    <div class="button">
-        <input type="submit" id="submit" value="Calculate">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/neon_button.css') }}">
+    <div class="container">
+            <input type="submit" id="submit" value="Calculate">
     </div>
 
 
