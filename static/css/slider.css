@@ -1,12 +1,12 @@
 .range_container {
     position: absolute;
-    top: 50%;
+    top: 66%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 40vh;
+    height: 10vh;
     width: 80%;
     margin: 1% auto;
 }
