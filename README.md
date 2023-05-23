@@ -3,8 +3,10 @@ EF-None is an application that takes a user's location and tells you the percent
 
 <!-- <img src=""  width="20%" height="10%" object-fit="cover" > -->
 
+<img src="https://ca.slack-edge.com/T246Q4801-U04QUCY6FLK-641527acfe42-512"  width="20%" height="10%" object-fit="cover" >
+
 ### [Jacob Polecaro](https://github.com/polecarozc)
-Responsible for the logic in the back end. This was done using Pandas and Geopy
+Responsible for the logic in the back end and part of the front end development. This was done using Pandas, Geopy, CSS and HTML.
 
  
 <img src="https://github.com/Zip-Final/EF-None/assets/18600243/0fadbbe2-d8d2-4dc2-a58d-279afad1f175"  width="20%" height="10%" object-fit="cover" >
